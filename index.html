@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+              integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+                crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="h-100">
+  <header style="background-image: url(img/avadabarbers-homepage-hero-bg.webp);background-size: cover;">
+      <nav class="navbar navbar-expand-md container ">
+        <a class="navbar-brand" href="#"><img src="img/logo.png"  width="220" height="82"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-light">
+                <li class="nav-item text-light">
+                    <a class="nav-link" href="{{ url('/login') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/register') }}">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/register') }}">Services </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/register') }}">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/register') }}">Our Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/register') }}">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/register') }}">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm m-auto">
+            <div class="d-flex flex-column ">
+              <h1>Barber Shop</h1>
+              
+              <p>The Pinnacle of Male Grooming</p>
+              <button><b>LEARN MORE</b></button>
+            </div>
+          </div><!--col-->
+          <div class="col-sm d-none d-sm-block">
+            <img  src="img/avadabarbers_hero_focalmirror-600x825.webp" height="700px">
+          </div><!--col-->
+        </div><!--row-->
+      </div>
+  </header>
+  <section  class = "h-50" style="background-image: url(img/avadabarbers-about-introbackground.webp);
+  background-size: cover;"> 
+    <div class="m-auto text-center pt-6">
+      <h4 class="Heading_h4">AWARD WINNING</h4>
+      <h2 class="Heading_h2">Pro Barbers</h2>
+      <button class="mt-4"><b>MEET OUR NEW BARBERS</b></button>
+    </div>
+    <div style="padding:0;padding-top: 50px;    transform: translateY(5px);">
+      <svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" 
+      version="1.1" width="100%" height="100" viewBox="0 0 100 100" 
+      preserveAspectRatio="none" style="fill:#ffffff;padding:0;">
+        <path d="M0 100 L50 2 L100 100 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section id="services">
+
+    <div class="container mt-6">
+
+      <div class="m-auto text-center ">
+        <h4 class="Heading_h4">MENS GROMMING</h4>
+        <h2 class="Heading_h2">SERVICE</h2>
+      </div>
+
+      <div class="row mt-6">
+          <div class="col-sm-3 offset-1 text-center">
+            <img class="pt-2" src="img/avadabarbers-trimcut-icon-before.webp" >
+              <h3 class="pt-2">Trim &amp; Cut</h3>
+              <p class="pt-2">Avada Barbers are experts in the lickety split trim and hair cut. 
+                Quick but careful and ridiculously good looking.</p> 
+          </div><!--col-->
+          <div class="col-sm-3 offset-1 text-center">
+            <img class="pt-2" src="img/avadabarbers-washndry-icon.webp">
+              <h3 class="pt-2">Wash &amp; Dry</h3>
+              <p class="pt-2">Take a seat in our fine leather chairs, lean back and let us lat
+                her you a fresh head in a luxurious fashion.
+              </p>
+          </div><!--col-->
+          <div class="col-sm-3 offset-1 text-center">
+            <img class="pt-2" src="img/avadabarbers-beardtrim-icon.webp">
+              <h3 class="pt-2" >Beard Tidy</h3>
+              <p class="pt-2" >Tame the tangles and untidy facial hairs like a gentleman
+                with our Beard Tidy services from Avada Barbers.
+              </p>
+          </div><!--col-->
+      </div><!--row-->
+    </div><!--container-->
+  </section>
+        
+  <section id="shop" class="pt-6">
+    <svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:#121314;padding:0;    transform: translateY(5px);">
+      <path d="M0 100 L50 2 L100 100 Z"></path>
+    </svg>
+    <div class="" style="background-image:url(img/avadabarbers-reviewsbackground.webp);background-size: cover;">
+        <div class="m-auto text-center ">
+          <h4 class="Heading_h4 pt-6">MENS GROMMING</h4>
+          <h2 class="Heading_h2">SERVICE</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+                <img class="text-center" src="img/brush_dark.webp">
+                <h3 class="text-center">Brush</h3>
+                <p  class="text-center">$15.00  </p>
+            </div><!--col-->
+            <div class="col-sm-3 text-center">
+              <img class="text-center" src="img/scissors.webp">
+              <h3 class="text-center" >Scissors</h3>
+              <p  class="text-center" >$85.00 </p>
+            </div><!--col-->
+            <div class="col-sm-3 text-center">
+              <img class="text-center"src="img/hot_oil_dark.webp">
+              <h3 class="text-center">Hot Oil</h3>
+              <p  class="text-center">$15.00 </p>
+            </div><!--col-->
+            <div class="col-sm-3 text-center">
+              <img class="text-center" src="img/straight_razor_dark.webp">
+              <h3 class="text-center">Straight Razor </h3>
+              <p  class="text-center">$30.00 </p>
+            </div><!--col-->
+          </div><!--row-->
+          <div class="text-center pt-5 pb-7">
+              <button><b>SHOP OUR PRODUCT RANGE</b></button>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="section_5">
+    <div class="row" style="margin: 0 7vw;
+                transform: translateY(-47px);
+                border-top: 4px solid #b39359;">
+      <div id="barber_section_5_col" class="col-sm-4" style="background-image: linear-gradient(to bottom, rgb(2 2 2 / 73%), rgb(2 2 2 / 73%)), url(img/avadabarbers-second-blog-700x441.webp);
+        background-size: cover;">
+        <img src="img/shaving_butter-600x600.webp" width="400" height="400  ">
+      </div><!--column-->
+      <div style="    background-color: #121314;
+                      padding-left: 40px;
+                      padding-top: 55px;
+                      padding-bottom: 37px;
+                      padding-right: 50px;" class="col-sm-8">
+
+            <h4 class="Heading_h4">THIS MONTHS FEATURED PRODUCT</h4>
+            <h2 class="Heading_h2">Shaving Butter</h2>
+            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque laoreet enim est, vel molestie dolor ultrices ut.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button><b>BUY NOW</b></button>
+      </div><!--column-->
+    </div><!--row-->
+  </section>
+
+  <section id="review" class="container mb-6">
+    <div class="text-center mt-6"><!--Heading-->
+      <h4 class="Heading_h4">WHAT PEOPLE SAY</h4>
+      <h2 class="Heading_h2">Reviews</h2>
+    </div>
+    <div class="row mt-6">
+      <div class="col-sm-3 offset-1 text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed 
+          sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius 
+           libero et arcu.</p>
+        <img class="rounded-circle" src="img/WhatsApp Image 2020-08-18 at 10.42.50 PM.jpeg" width="113" height="120">
+        <h4 class="Heading_h4">Gillani</h4>
+      </div><!--col-->
+      <div class="col-sm-3 offset-1 text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed 
+          sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius 
+           libero et arcu.</p>
+        <img class="rounded-circle" src="img/WhatsApp Image 2020-08-18 at 10.42.50 PM.jpeg" width="113" height="120">
+        <h4 class="Heading_h4">Gillani</h4>
+      </div><!--col-->
+      <div class="col-sm-3 offset-1 text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed 
+          sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius 
+           libero et arcu.</p>
+        <img class="rounded-circle" src="img/WhatsApp Image 2020-08-18 at 10.42.50 PM.jpeg" width="113" height="120">
+        <h4 class="Heading_h4">Gillani</h4>
+      </div><!--col-->
+    </div><!--row-->
+  </section>
+
+  <section id="blog" style="background: #f5f5f5;" class="pb-6">
+      <!--Divider-->
+      <svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill: #ffffff;
+        padding: 0;
+        transform: rotate(180deg);
+        margin-top: -5px;">
+      <path d="M0 100 L50 2 L100 100 Z"></path>
+      </svg>
+      <!--Divider-->
+      <div class="container mt-6">
+
+        <div class="m-auto text-center ">
+          <h4 class="Heading_h4">TALES FROM THE BARBER SHOP</h4>
+          <h2 class="Heading_h2">Recent Blog Posts</h2>
+        </div>
+
+        <div class="row mt-6">
+            <div class="col-sm-4 text-center">
+                  <img src="img/avadabarbers-reviewsbackground.webp">
+                  <h3 class="mt-5 orange_color">Avada Barbers Now Open</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus ut dapibus magna. Praesent semper,
+                  </p> 
+            </div><!--col-->
+            <div class="col-sm-4 text-center">
+                 <img src="img/avadabarbers-reviewsbackground.webp">
+                  <h3 class="mt-5 orange_color">Choosing The Right Barber</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus ut dapibus magna. Praesent semper,
+                  </p>
+            </div><!--col-->
+            <div class="col-sm-4 text-center">
+                  <img src="img/avadabarbers-reviewsbackground.webp">
+                  <h3 class="mt-5 orange_color">Quick Service Guide</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus ut dapibus magna. Praesent semper,
+                  </p>
+            </div><!--col-->
+        </div><!--row-->
+        <div class="text-center mt-5">
+            <button><b>READ MORE FROM OUR BLOG</b></button>
+        </div>
+      </div><!--container-->
+  </section>
+
+  <footer class="" style="background: #121314;">
+      <div class="container pb-5 pt-5">
+        <div class="row">
+            <div class="col text-center pt-4 pt-sm-0">
+                <img src="img/avadabarbers_footer_shop_image.webp" width="320" height="240">
+                <button class="mt-5">SHOP OUR RANGE NOW</button>
+            </div><!--col-->
+            <div class="col text-center order-first order-sm-0 pt-4 pt-sm-0 ">
+                <img src="img/logo.png" width="193">
+                <p style="font-size: 16px; line-height: 1.5;" class="pt-4">Avada Barbers<br>
+                  123 New York Street<br>
+                  New York City<br>
+                  info@yourwebsite.com<br>
+                  +1 (555) 555-1212</p>
+      
+                  <h4 class="Heading_h4 pt-5">FOLLOW US</h4>
+            </div><!--col-->
+            <div class="col text-center pt-4 pt-sm-0">
+              <img src="img/avadabarbers_footer_appointment_image.webp" width="350" height="260">
+              <button class="mt-4">BOOK YOUR APPOINTMENT</button>
+            </div><!--col-->
+        </div><!--row-->
+    
+      </div><!--container-->
+  </footer>
+  <footer style="background: #161718;">
+    <p class="text-center pt-3 pb-3 text-light">© Copyright 2000 - 2020 |  Kathiya's Enterprise 
+           | All Rights Reserved | Powered by Abdul Moiz and Hassan Matloob Developers</p>
+  </footer>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+            crossorigin="anonymous"></script>
+</body>
+</html>

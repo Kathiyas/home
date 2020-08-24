@@ -1,0 +1,129 @@
+/*Global*/
+h3{
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+
+.orange_color{
+    color:#be9359;
+}
+.Heading_h2 {
+    color: #b1b1b1;
+    padding-top: 3px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.Heading_h4 {
+    color: #be9359;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+#hr1 {
+    width: 250px;
+    margin-left: 0;
+    border: solid #be9359;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+button {
+    background-color: Transparent;
+    color: #be9359;
+    border: 2px solid #be9359;
+    font-size: 17px;
+    padding: 20px 40px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.mt-6{
+    margin-top:93px;
+}
+
+.mb-6{
+    margin-bottom: 93px;
+}
+
+.mt-7{
+    margin-top:105px;
+}
+
+.mb-7{
+    margin-bottom:105px;
+}
+
+.pt-6{
+    padding-top:93px;
+}
+
+.pb-6{
+    padding-bottom: 93px;
+}
+
+.pt-7{
+    padding-top:105px;
+}
+
+.pb-7{
+    padding-bottom:105px;
+}
+
+
+
+/*Navigation*/
+ul li a{
+    color:#fff;
+    font-size:17px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/*header*/
+
+header h1{
+    font-size: 90px;
+    font-family: 'Abril Fatface', cursive;
+    color: #dddddd;
+
+}
+
+/*Services*/
+
+#services img{
+    height:108px;
+}
+
+/* Shop*/
+#shop img {
+    width: 270px;
+    height:270px;
+}
+
+/*Blog*/
+#blog img{
+    width: 360px;
+    height: 226px;
+}
+
+/*Footer*/
+footer button {
+    background-color: Transparent;
+    color: #be9359;
+    border: 2px solid #be9359;
+    font-size: 14px;
+    padding: 11px 16px;
+    /* margin-top:20px; */
+    font-family: 'Lato', sans-serif;
+
+}
